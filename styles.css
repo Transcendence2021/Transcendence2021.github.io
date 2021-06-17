@@ -345,6 +345,11 @@ html {
     letter-spacing: 2.75px;
   }
 }
+@media (max-width: 500px){
+  .slideshow-text {
+    letter-spacing: 2.75px;
+  }
+}
 
 
 .the-most {
