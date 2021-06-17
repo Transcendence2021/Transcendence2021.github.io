@@ -45,7 +45,7 @@ html {
 }
 .slideshow .slick-dots {
   position: fixed;
-  z-index: 100;
+  z-index: 300;
   width: 20px;
   height: auto;
   bottom: auto;
