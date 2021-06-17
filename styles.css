@@ -342,14 +342,10 @@ html {
 }
 @media (max-width: 600px){
   .slideshow-text-two {
-    letter-spacing: 1.75px;
+    letter-spacing: 2.75px;
   }
 }
-@media (max-width: 500px){
-  .slideshow-text-two {
-    letter-spacing: 3.75px;
-  }
-}
+
 
 .the-most {
   position: fixed;
