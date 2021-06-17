@@ -173,48 +173,52 @@ html {
 }
 #slick-slide07{
     width:25px;
-    left: -13;
+    left: -13;z-index:2000;
 }
 .slideshow .slick-dots #slick-slide07:before{
     content: url(logos/New/final/psychoh%20inverted2.svg);
     transition: all 0.3s ease-in-out;
   opacity: 0.5;
+            z-index: 2000;
 }
 .slideshow .slick-dots #slick-slide07.slick-active:before{
   opacity: 1;
 }
 #slick-slide08{
     width:30px;
-    left: -16;
+    left: -16;z-index:2000;
 }
 .slideshow .slick-dots #slick-slide08:before{
     content: url(logos/New/final/hardwired.svg);
     transition: all 0.3s ease-in-out;
   opacity: 0.5;
+            z-index:2000;
 }
 .slideshow .slick-dots #slick-slide08.slick-active:before{
   opacity: 1;
 }
 #slick-slide09{
     width: 30px;
-    left: -15;
+    left: -15;z-index:2000;
 }
 .slideshow .slick-dots #slick-slide09:before{
     content: url(logos/New/final/viventem.svg);
     transition: all 0.3s ease-in-out;
   opacity: 0.5;
+            z-index:2000;
 }
 .slideshow .slick-dots #slick-slide09.slick-active:before{
   opacity: 1;
 }
 #slick-slide010{
     width: 30px;
-    left: -18;
+    left: -18;z-index:2000;
 }
 .slideshow .slick-dots #slick-slide010:before{
     content: url(logos/New/final/zenith.svg);
     transition: all 0.3s ease-in-out;
   opacity: 0.5;
+            z-index:2000;
 }
 .slideshow .slick-dots #slick-slide010.slick-active:before{
   opacity: 1;
