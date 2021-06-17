@@ -82,6 +82,7 @@ html {
   transform: translateY(-50%);
   transition: all 0.3s ease-in-out;
   opacity: 0.5;
+            z-index: 300;
 }
 #slick-slide00{
     width:30px;
