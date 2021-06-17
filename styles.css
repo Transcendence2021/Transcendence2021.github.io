@@ -236,7 +236,7 @@ html {
 
 .slideshow-text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9;
@@ -254,7 +254,7 @@ html {
 
 .slideshow-text-two {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
@@ -272,7 +272,7 @@ html {
 }
 .slideshow-logo {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -287,7 +287,7 @@ html {
 }
 .slideshow-butt {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -342,18 +342,9 @@ html {
 }
 @media (max-width: 600px){
   .slideshow-text-two {
-    letter-spacing: 2.75px;
+    letter-spacing: 1.75px;
   }
 }
-@media (max-width: 500px){
-  .slideshow-text {
-    letter-spacing: 4.75px;
-  }
-  .slideshow-text-two {
-    letter-spacing: 2.75px;
-  }
-}
-
 
 .the-most {
   position: fixed;
