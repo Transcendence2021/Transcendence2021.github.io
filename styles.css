@@ -295,11 +295,11 @@ html {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 250px;
     height: auto;
   text-align: center;
     opacity: 1;
-    z-index: 200;
+    z-index: 20;
 }
 @media (max-width: 1200px) {
   .slideshow-text-two {
