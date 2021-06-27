@@ -27,7 +27,7 @@
     width: 100%; text-align: center;
 }
     .noise{
-        font-family: Mont; font-size: 80px; color: white; text-align: center;
+        font-family: Mont; font-size: 80px; color: white; text-align: center;padding-left: 10px;padding-right: 10px;
     }
     .eventsbig{
         font-family: Mont; font-size: 6vw; color: red;letter-spacing: 10; padding-top: 40px;
@@ -40,7 +40,7 @@
     }
     .column2 {
   float: left;
-  width: 33%;
+  width: 32%;
   padding: 0px;
   height: auto; 
     }
@@ -197,7 +197,7 @@ footer a{color: #ccc;}
     position: fixed;
     top: 0;
     left: 0;
-     z-index: 1;
+     z-index: 10000;
     height: 100%;
     width: 100%;
     background: black;
@@ -210,7 +210,7 @@ display: none;
 position: fixed;
     top: 20%;
 left: 25%;
-z-index: 2;
+z-index: 20000;
 }
     
     iframe{
@@ -280,7 +280,15 @@ z-index: 2;
 #idontwant{
         margin-left: 0px;
     }
-  
+    #idontw{
+        margin-left: 30px;
+    }
+  #sklogo{
+    width: 350px;
+  }
+  .trail{
+    font-size: 40px;
+  }
     width:225%;
             height: 415px;
     @media(max-width: 1510px){
@@ -318,6 +326,9 @@ z-index: 2;
         #logonoone{
             display: none;
         }
+        #idontw{
+            margin-left: 0px;
+        }
     } 
     
     @media(max-width: 1300px){
@@ -346,7 +357,8 @@ z-index: 2;
            margin-top: 0px;
            margin-right: auto;
            margin-bottom: 40px;
-           margin-left: 50px;
+           margin-left: 3.5vw;
+
         }
     }
     @media (max-width: 1200px){
@@ -370,6 +382,14 @@ z-index: 2;
             height: 1230px;
         }
         .eventsbig{
+        }
+        .square{
+           margin: 100px;
+           margin-top: 0px;
+           margin-right: auto;
+           margin-bottom: 40px;
+           margin-left: 5vw;
+
         }
     }
     @media (max-width: 1100px){
@@ -404,7 +424,14 @@ z-index: 2;
         iframe{
             
         }
-        
+        .square{
+           margin: 100px;
+           margin-top: 0px;
+           margin-right: auto;
+           margin-bottom: 40px;
+           margin-left: 5vw;
+
+        }
         .buttonevent{
             margin-top: -60px;
         }
@@ -412,6 +439,9 @@ z-index: 2;
     @media(max-width: 950px){
         main{
             height: 1380px;
+        }
+        .noise{
+            font-size: 10vw;
         }
     }
     @media(max-width: 900px){
@@ -475,6 +505,14 @@ z-index: 2;
       .gametick{
         width:80%;margin-top: 10%;transform: rotate(-10deg);
       }
+      .square{
+           margin: 100px;
+           margin-top: 0px;
+           margin-right: auto;
+           margin-bottom: 40px;
+           margin-left: 8vw;
+
+        }
     }
     @media (max-width: 700px){
         #video{
@@ -499,6 +537,9 @@ z-index: 2;
         #idontwant{
             margin-left: 15px;
         }
+        #idontw{
+            margin-left: 15px;
+        }
         ul{
             padding-left: 10px;
         }
@@ -512,11 +553,19 @@ z-index: 2;
             padding-top: 100px;
         }
         #idontlikeyou{
-            font-size: 70px
+            font-size: 10vw;
         }
         .buttonins{
         padding-left: 40px;
     }
+    .square{
+           margin: 100px;
+           margin-top: 0px;
+           margin-right: auto;
+           margin-bottom: 40px;
+           margin-left: 6.5vw;
+
+        }
         
     }
     @media(max-width: 675px){
@@ -534,14 +583,14 @@ z-index: 2;
             margin: 0;
         }
         .square{
-           margin-left: 25%;
+           margin-left: 26vw;
         }
         .noise{
             line-height: normal;
         
         }
         .content2{
-            height: 840px;
+            height: 640px;
         }
         
         .eventsbig{
@@ -555,15 +604,16 @@ z-index: 2;
         main{
             height: 1740px;
         }
+        .trail{
+            font-size: 5vw;
+        }
     }
     @media(max-width: 600px){
         main{
             height: 1790px;
         }
         
-        .noise{
-            font-size: 70px;
-        }
+        
         #video{
             left: 10%;
         }
@@ -586,12 +636,15 @@ z-index: 2;
     @media(max-width: 574px){
         main{
             height: 1830px;}
+            .square{
+           margin-left: 22vw;
+        }
     }
     @media (max-width:550px){
         main{
             height: 1860px;
         }
-        
+        }
         
         @media (max-width: 530px){
             main{
@@ -613,11 +666,12 @@ z-index: 2;
             padding-top: 0px;
             margin-top: 20px;
         }
+
     }
         @media (max-width: 500px)
     {
         main{
-            height: 2180px;
+            height: 1900px;
         }
         .eventsbig{
             padding-top: 0px;
@@ -632,21 +686,33 @@ z-index: 2;
         iframe{
             width: 100%;
             height: 180px;
-        }
-        #idontlikeyou{
-            font-size: 60px
-        }
-        .square{
-            margin-left: 20%;
+        }        .square{
+            margin-left: 20vw;
         }
         .buttonevent{
             margin-top: -30px;
         }
     }
+    @media(max-width: 470px){
+        main{
+            height: 2000px;
+        }
+}
+
+    @media(max-width: 450px){
+        .square{
+            margin-left: 18vw;
+        }
+}
+@media(max-width: 420px){
+        main{
+            height: 2100px;
+        }
+}
         @media (max-width: 400px)
     {
         main{
-            height: 2250px;
+            height: 2200px;
         }
         .eventsbig{
             padding-top: 0px;
@@ -661,20 +727,105 @@ z-index: 2;
             width: 100%;
             height: 180px;
         }
+        .square{
+            margin-left: 16%;
+        }
+        #sklogo{
+            width: 250px;
+        }
+        .content2{
+            height: 540px;
+        }
+        .eventsbig{
+            padding-top: 0px;
+            margin-top: -10px;
+            padding-bottom:20px;
+            padding-left:4px;
+            font-size: 4vw;
+        }
+        .gametick{
+        margin-left: 0%;
+      }
     }
+    @media(max-width: 360px){
+        .square{
+            margin-left: 13%;
+        }
+        main{
+            height: 2300px;
+        }
+        .button2{
+            margin-left: 55px;
+        }
+        .buttonevent{
+            height: 20px;
+            width: 60px;
+            font-size: 4px;
+            margin-left: 55px;
+            margin-top: -30px;
+        }
+}
+@media(max-width: 350px){
+        .square{
+            margin-left: 13%;
+        }
+        main{
+            height: 2400px;
+        }
+}
+@media(max-width: 340px){
+        .square{
+            margin-left: 13%;
+        }
+        main{
+            height: 2500px;
+        }
+}
+@media(max-width: 330px){
+        .square{
+            margin-left: 10%;
+        }
+        .eventsbig{
+            padding-top: 0px;
+            margin-top: -20px;
+            padding-bottom:20px;
+            padding-left:4px;
+            font-size: 3vw;
+        }
+}@media(max-width: 310px){
+        main{
+            height: 2600px;
+        }
+}
+@media(max-width: 300px){
+        .square{
+            margin-left: 8%;
+        }
+        main{
+            height: 2700px;
+        }
+}
+@media(max-width: 290px){
+        .square{
+            margin-left: 8%;
+        }
+        main{
+            height: 2800px;
+        }
+}
+@media(max-width: 280px){
+        .square{
+            margin-left: 8%;
+        }
+        main{
+            height: 2900px;
+        }
+}
+
+
     
      
-    @media(max-width: 1400px){
-        
-    }
-    @media(max-width: 700px){
-        
-    }
-        @media(max-width: 500px){
-            #idontlikeyou{
-                font-size: 60px;
-            }
-        }
+
     
     
 </style>
@@ -708,14 +859,14 @@ z-index: 2;
     </header>
         <main role="main">
     <center><div class="content1 row" style="clear: both;">
-        <h1 id="idontlikeyou" style="font-family: Mont; color: red; text-align: center;padding: 0; font-size: 30px;letter-spacing: 4px;">PRESENTED TO YOU BY<br><br><img src="sjbhs.png" style="width: 350px;padding-top: 0px;margin-top: 0px;"></h1>
+        <h1 id="idontlikeyou" style="font-family: Mont; color: red; text-align: center;padding: 0; font-size: 30px;letter-spacing: 4px;">PRESENTED TO YOU BY<br><br><img id="sklogo" src="sjbhs.png" style="padding-top: 0px;margin-top: 0px;"></h1>
         <p style="font-size: 17px;"><br></p><div class="column" style="margin-bottom: 0;"><h1 style="font-family: Mont; font-size: 40px; color: red; text-align: center;">About</h1>
         <p style="font-family: Mont; font-size: 20px; color: white;text-align: justify; text-justify: inter-word;padding-right: 50px; padding-left: 50px;">The first <i>international</i> edition of our science fest Transcendence, hopes to bring together passionate young minds from across the globe and offer them an opportunity to   showcase their ideas, talents and extensive knowledge on various subjects ranging from innovation and economics to the very core ideals that make up the vast scope of science. Our main aim is to not only spark an interest in the various cross-disciplinary aspects of science but also provide a much-needed respite during these difficult times. </p><p style="font-family: Mont; font-size: 20px; color: red; padding-left: 100 px;text-align: justify;text-justify: inter-word; font-weight: bold; padding-right: 50px; padding-left: 50px;margin-bottom: 0;"><i>Transcendence is not just an event, it's an experience beyond the ordinary and with our collective collaboration, we believe we can fulfil that claim.</i><br></p></div>
         
         <div class="column">
             <h1 style="font-family: Mont; font-size: 40px; color: red; text-align: center;padding-top: 0;">1st - 14th August</h1><br><br><br><center><div class="split"><div class="square float-child square1" style=""><h1 style="font-family: Mont; font-size: 120px; color: white; text-align: center; margin-top: 10%;"><b>14</b></h1><p style="font-family: Mont; font-size: 40px; color: red;text-align: center; letter-spacing: 10px;"><b>Days</b></p></div><div class="square float-child square2"><h1 style="font-family: Mont; font-size: 120px; color: white; text-align: center; margin-top: 10%;"><b>11</b></h1><p style="font-family: Mont; font-size: 40px; color: red;text-align: center; letter-spacing: 6px;padding: 0;"><b>Events</b></p></div></div></center>
         </div></div><div style="position: absolute;left: 50%;"><div style= "position: relative; left: -50%;"><a href="regis.html"><button class="button button2" style="margin-top: 70px;"><b><span>&#10094;&nbsp;&nbsp;</span>Register</b></button></a><button class="button button2" style="margin-top: 0;"><b>Brochure <span>&nbsp;&#10095;</span></b></button></div></div></center></main>
-        <div class="content2" style="background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-position: center;width: 100%;background-image: url(compressjpeg/Optimized-20215-min.jpg);overflow: hidden;align-content: center;"><br><h1 class="noise" style=""><br><b>COME MAKE SOME NOISE WITH US</b></h1><br><p style="font-family: Mont; font-size: 40px; color: red;text-align: center; letter-spacing: 15px;margin-left: 15px;"><b>TRAILER</b></p><center><button class="button button1" id="btn" style="border-radius: 100%; border-color: white;"><span style="font-size: 105px;line-height: 20px;margin-left: -7px;">&#9657;</span></button><div id="overlay"></div><div id = "video" autoplay></div></center></div>
+        <div class="content2" style="background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-position: center;width: 100%;background-image: url(compressjpeg/Optimized-20215-min.jpg);overflow: hidden;align-content: center;"><br><h1 class="noise" style=""><br><b>COME MAKE SOME NOISE WITH US</b></h1><br><p class="trail" style="font-family: Mont; color: red;text-align: center; letter-spacing: 15px;margin-left: 15px;"><b>TRAILER</b></p><center><button class="button button1" id="btn" style="border-radius: 100%; border-color: white;"><span style="font-size: 105px;line-height: 20px;margin-left: -7px;">&#9657;</span></button><div id="overlay"></div><div id = "video" autoplay></div></center></div>
           <center> <div class="content" style="overflow: hidden;height: auto;background-image: url(102.jpg.png);background-position: center;background-size: cover;overflow: hidden;background-repeat: no-repeat;">
               
               <a href="gaming.html"><img src="logos/New/final/Gaming.svg" style="width: 10%; height: auto; margin-top:5%;margin-bottom: 0;position: relative;padding: 0;"></a>
@@ -775,10 +926,7 @@ $(document).mouseup(function (e)
 });
 </script>
     <div id="footer" class="row" style="height: 200px;padding-top: 50px;">
-        <div class="column2">
-            <img src="3(1).jpg" id="logonoone" style="width: 100%; height: auto;margin-top: 24px;margin-left: 0px;margin-top: 25%;">
-        </div>
-        <center><div class="column2" style="margin-right: none;margin-left: 15px;padding-top: 20px;">
+                <center><div class="column2" style="margin-right: none;margin-left: 15px;padding-top: 20px;">
             <h1 class="social" style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Quick Links</h1>
         <ul style="font-family: Mont; font-size: 20px; color: white;list-style-type: none;" ><br>
             <a href="home.html"><li style="color: white;">Home</li></a>
@@ -794,13 +942,17 @@ $(document).mouseup(function (e)
             <button class="button button3 buttonins" style="width: 50px;height: 50px;border-color: black;"><img src="logos/New/social%20logos/insta.png" style="width: 30px;height: auto;margin: none; padding: none;"></button>
             <button class="button button3" style="width: 50px;height: 50px;border-color: black;"><img src="logos/New/social%20logos/fb.png" style="width: 30px;height: auto; margin: none;padding: 0;padding-right: 5px;padding-bottom: 5px;"></button>
         </div></center>
+        <div class="column2" id="idontw" style="margin-right: none;padding-top: 20px;">
+            <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">In Partnership With</h1>
+            <center><img src="logos/oba.png" style="width: 300px;padding-top: 20px;padding-bottom: 20px;"></center> 
+            <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Entertainment Partner</h1>
+            <center><img src="logos/pta.png" style="width: 300px;padding-top: 20px;padding-bottom: 20px;"></center>
+        </div>
         <div class="column2" id="idontwant" style="margin-right: none;padding-top: 20px;">
             <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">In Partnership With</h1>
-            <center><img src="logos/10-hardwiredlogo.png" style="width: 100px;padding: 20px;"></center> 
-            <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Entertainment Partner</h1>
-            <center><img src="logos/oba.png" style="width: 300px;padding: 5px;"></center>
+            <center><img src="logos/nh.png" style="width: 280px;padding-top: 20px;padding-bottom: 20px;"></center>
                    <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Radio Partner</h1>
-            <center><img src="logos/redfm.png" style="width: 150px;padding: 20px;padding-top: 0;"></center>                 </div>
+            <center><img src="logos/redfm.png" style="width: 300px;padding: 20px;padding-top: 0;"></center>                 </div>
     </div>
     </body>
 </html>
