@@ -224,6 +224,148 @@ html {
   opacity: 1;
 }
 
+@media(max-width: 400px){
+  #slick-slide00{
+    width:30px;
+    left: -15;
+}
+.slideshow .slick-dots #slick-slide00:before{
+    content: url(logos/New/final/arbitrium.svg);
+    padding-bottom: 20px;
+    transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide00.slick-active:before{
+  opacity: 0;
+}
+#slick-slide01{
+    width: 30px;
+    left: -15;
+}
+.slideshow .slick-dots #slick-slide01:before{
+    content: url(logos/New/final/Acta_Diurna_Rectangle.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide01.slick-active:before{
+  opacity: 0;
+}
+#slick-slide02{
+    width: 40px;
+    right: 20;
+}
+.slideshow .slick-dots #slick-slide02:before{
+    content: url(logos/New/final/221B.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide02.slick-active:before{
+  opacity: 0;
+}
+
+#slick-slide03{
+    width: 20px;
+    left: -10;
+}
+.slideshow .slick-dots #slick-slide03:before{
+    content: url(logos/New/final/tacticus.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide03.slick-active:before{
+  opacity: 0;
+}
+#slick-slide04{
+    width: 30px;
+    left: -15;
+}
+.slideshow .slick-dots #slick-slide04:before{
+    content: url(logos/New/final/Gaming.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide04.slick-active:before{
+  opacity: 0;
+}
+#slick-slide05{
+    width: 35px;
+    left: -19;
+}
+.slideshow .slick-dots #slick-slide05:before{
+    content: url(logos/New/final/codeblooded.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide05.slick-active:before{
+  opacity: 0;
+}
+#slick-slide06{
+    width: 30px;
+    left: -15;
+}
+.slideshow .slick-dots #slick-slide06:before{
+    content: url(logos/New/final/cosmicon.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slideshow .slick-dots #slick-slide06.slick-active:before{
+  opacity: 0;
+}
+#slick-slide07{
+    width:25px;
+    left: -13;z-index:2000;
+}
+.slideshow .slick-dots #slick-slide07:before{
+    content: url(logos/New/final/psychoh%20inverted2.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+            z-index: 2000;
+}
+.slideshow .slick-dots #slick-slide07.slick-active:before{
+  opacity: 0;
+}
+#slick-slide08{
+    width:30px;
+    left: -16;z-index:2000;
+}
+.slideshow .slick-dots #slick-slide08:before{
+    content: url(logos/New/final/hardwired.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+            z-index:2000;
+}
+.slideshow .slick-dots #slick-slide08.slick-active:before{
+  opacity: 0;
+}
+#slick-slide09{
+    width: 30px;
+    left: -15;z-index:2000;
+}
+.slideshow .slick-dots #slick-slide09:before{
+    content: url(logos/New/final/viventem.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+            z-index:2000;
+}
+.slideshow .slick-dots #slick-slide09.slick-active:before{
+  opacity: 0;
+}
+#slick-slide010{
+    width: 30px;
+    left: -18;z-index:2000;
+}
+.slideshow .slick-dots #slick-slide010:before{
+    content: url(logos/New/final/zenith.svg);
+    transition: all 0.3s ease-in-out;
+  opacity: 0;
+            z-index:2000;
+}
+.slideshow .slick-dots #slick-slide010.slick-active:before{
+  opacity: 0;
+}
+
+}
 .slideshow .slick-dots li.slick-active button:before {
   width: 40px;
   opacity: 1;
