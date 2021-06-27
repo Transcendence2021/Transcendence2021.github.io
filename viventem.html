@@ -41,7 +41,7 @@
     }
     .column2 {
   float: left;
-  width: 33%;
+  width: 32%;
   padding: 0px;
   height: auto; 
     }
@@ -323,6 +323,9 @@ footer a{color: #ccc;}
     #idontwant{
         margin-left: 0px;
     }
+    #idontw{
+        margin-left: 30px;
+    }
     @media(max-width: 1510px){
         .column2 {
     width: 30%;
@@ -335,6 +338,9 @@ footer a{color: #ccc;}
         #logonoone{
             display: none;
         }
+        #idontw{
+            margin-left: 0px;
+        }
     }
     @media(max-width: 700px){
         .column2{
@@ -346,6 +352,9 @@ footer a{color: #ccc;}
         #idontwant{
             margin-left: 15px;
         }
+        #idontw{
+            margin-left: 15px;
+        }
         ul{
             padding-left: 10px;
         }
@@ -354,16 +363,35 @@ footer a{color: #ccc;}
         }
         .content2{
             padding: 50px;
+            height: 600px;
         }
         #youretard{
             padding-top: 100px;
-		width: 300px;
-		padding-bottom: 100px;
+        padding-bottom: 100px;
+        width: 300px;
         }
         #idontlikeyou{
-            font-size: 70px
+            font-size: 50px
         }
     }
+    @media(max-width: 400px){
+        #youretard{
+            padding-top: 100px;
+        width: 200px;
+        padding-bottom: 100px;
+        }
+    }
+
+    table{
+        width: 60%;
+    }
+    th{
+        padding: 20px;
+    }
+    td{
+        padding: 20px;
+    }
+    
    /* @media (max-width: 1500px){
         #video{
            left: 23%; 
@@ -625,7 +653,25 @@ footer a{color: #ccc;}
               
              <div style="padding-top: 50px;"><h1 id="idontlikeyou" style="font-family: Mont; color: orangered; text-align: center;padding-bottom: 30px;">Viventem</h1>
                  <p style="font-family: Mont; font-size: 25px; color: white;text-align: center; text-justify: inter-word;padding-right: 50px; padding-left: 50px;">“The point of biology is that it’s beautiful. And if you start to understand how it works, it can enrich your life in so many ways.”</p><p style="font-family: Mont; font-size: 25px; color: orangered; padding-left: 100 px;text-align: center;text-justify: inter-word; font-weight: bold; padding-right: 50px; padding-left: 50px;margin-bottom: 0;">The complexity of the living, the interaction with the environment and the beauty of the fundamental principles of biology is something that you can find at only one place – Viventem.<br>Sizzle with electrochemical impulses while cruising through this experience of undeniably amusing rounds specially designed for the true bio lover in you!<br></p><br><br><br><h1 style="font-family: Mont; font-size: 40px; color: orangered;">Guidelines</h1><br>
-                 <p style="font-family: Mont; font-size: 20px; color: white;padding-right: 50px; padding-left: 50px;text-align: left;"><ul style="text-align: left;font-size: 25px;color: white;margin-left: 40px;"><li>Open to students from 10th to 12th grade.</li><li>This is a duo event.</li><li>Further details of the event will be communicated to the participants as they register.</li></ul></div><br><br>
+                 <p style="font-family: Mont; font-size: 20px; color: white;padding-right: 50px; padding-left: 50px;text-align: left;"><ul style="text-align: left;font-size: 25px;color: white;margin-left: 40px;"><li>Open to students from 10th to 12th grade.</li><li>This is a duo event.</li><li>Further details of the event will be communicated to the participants as they register.</li></ul></div><br><br><h1 style="font-family: Mont; font-size: 40px; color: white;">Event Heads</h1><br>
+                    <table>
+                <tr>
+                    <th style="color: red;">Edlyn Jacob</th>
+                    <td style="float: right;color: white;"><a href="tel:+91 81978 61610" style="color:white;">+91 81978 61610</a></td>
+                </tr>
+                <tr>
+                    <th style="color: red;">Serena D'Souza</th>
+                    <td style="float: right;color: white;"><a href="tel:+91 70221 59343" style="color:white;">+91 70221 59343</a></td>
+                </tr>
+                <tr>
+                    <th style="color: red;">Shukla Sandesh</th>
+                    <td style="float: right;color: white;"><a href="tel:+91 78927 64974" style="color:white;">+91 78927 64974</a></td>
+                </tr>
+                <tr>
+                    <th style="color: red;">Sidrah Saif</th>
+                    <td style="float: right;color: white;"><a href="tel:+91 99019 78697" style="color:white;">+91 99019 78697</a></td>
+                </tr>
+         </table><br><br>
          <center><a href="regis.html"><button class="button button2" style="margin-bottom: 100px;"><b>Register Now</b></button></a></center>
               </div></center>
     <script>
@@ -646,10 +692,7 @@ if($('.navbar').length > 0){
 }
     </script>
     <div id="footer" class="row" style="height: 200px;padding-top: 50px;">
-        <div class="column2">
-            <img src="3(1).jpg" id="logonoone" style="width: 100%; height: auto;margin-top: 24px;margin-left: 0px;margin-top: 25%;">
-        </div>
-        <center><div class="column2" style="margin-right: none;margin-left: 15px;padding-top: 20px;">
+                <center><div class="column2" style="margin-right: none;margin-left: 15px;padding-top: 20px;">
             <h1 class="social" style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Quick Links</h1>
         <ul style="font-family: Mont; font-size: 20px; color: white;list-style-type: none;" ><br>
             <a href="home.html"><li style="color: white;">Home</li></a>
@@ -662,16 +705,20 @@ if($('.navbar').length > 0){
         </ul>
             <br>
             <h1 class="social" style="font-family: Mont; font-size: 30px; color: red; text-align: center;">We're Social!</h1>
-            <button class="button button1" style="width: 50px;height: 50px;border-color: black;"><img src="logos/New/social%20logos/insta.png" style="width: 30px;height: auto; margin: none;padding: none;"></button>
+            <button class="button button1" style="width: 50px;height: 50px;border-color: black;"><img src="logos/New/social%20logos/insta.png" style="width: 30px;height: auto;margin: none; padding: none;"></button>
             <button class="button button1" style="width: 50px;height: 50px;border-color: black;"><img src="logos/New/social%20logos/fb.png" style="width: 30px;height: auto; margin: none;padding: 0;padding-right: 5px;padding-bottom: 5px;"></button>
         </div></center>
+        <div class="column2" id="idontw" style="margin-right: none;padding-top: 20px;">
+            <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">In Partnership With</h1>
+            <center><img src="logos/oba.png" style="width: 300px;padding-top: 20px;padding-bottom: 20px;"></center> 
+            <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Entertainment Partner</h1>
+            <center><img src="logos/pta.png" style="width: 300px;padding-top: 20px;padding-bottom: 20px;"></center>
+        </div>
         <div class="column2" id="idontwant" style="margin-right: none;padding-top: 20px;">
             <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">In Partnership With</h1>
-            <center><img src="logos/10-hardwiredlogo.png" style="width: 100px;padding: 20px;"></center> 
-            <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Entertainment Partner</h1>
-            <center><img src="logos/10-hardwiredlogo.png" style="width: 100px;padding: 20px;"></center>
+            <center><img src="logos/nh.png" style="width: 280px;padding-top: 20px;padding-bottom: 20px;"></center>
                    <h1 style="font-family: Mont; font-size: 30px; color: red; text-align: center;">Radio Partner</h1>
-            <center><img src="logos/10-hardwiredlogo.png" style="width: 100px;padding: 20px;"></center>                 </div>
+            <center><img src="logos/redfm.png" style="width: 300px;padding: 20px;padding-top: 0;"></center>                 </div>
     </div>
     </body>
 </html>
