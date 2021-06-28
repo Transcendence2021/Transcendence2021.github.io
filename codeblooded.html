@@ -209,6 +209,17 @@ footer a{color: #ccc;}
   line-height: 45px;
   border-radius: 4px;
 }
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+@media(max-width:  1500px){
+    .navbar-nav.navbar-center {
+        position: relative;
+        left: 0;
+        transform: translateX(0);
+}}
 
 #navbar #logo>img {
   height: 120px;
@@ -253,7 +264,7 @@ footer a{color: #ccc;}
     }
 
     
-@media screen and (max-width: 2080px) {
+@media screen and (max-width: 5080px) {
   #navbar {
     padding:!important;
   }
@@ -636,7 +647,7 @@ footer a{color: #ccc;}
     <a style="margin-top: 0px; margin-right: 0px;padding: 0;" href="#default" id="logo"><span style="font-size: 40px;color: white;padding-top: 50px;">&#9778;</span></a>
     </button><div class="fade-in"><div style="position: relative;"><a href="" id="logo"><img class="someimg" src="logot%20(1).png"></a></div>
         <div class="container10" style="position: relative;"><div id="bruh" class="collapse navbar-collapse" style="text-align: center;">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-center">
             <li><a href="home.html">Home</a></li>
             <li><a href="format.html">Events</a></li>
             <li><a href="about.html">About</a></li>

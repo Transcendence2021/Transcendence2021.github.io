@@ -79,9 +79,9 @@ $('.slideshow-left').slick({
 }).on('mousedown touchstart', function(){
   dragging = true;
   tracking = $('.slick-track', $slider).css('transform');
-  tracking = parseInt(tracking.split(',')[10]);
+  tracking = parseInt(tracking.split(',')[3000]);
   rightTracking = $('.slideshow-right .slick-track').css('transform');
-  rightTracking = parseInt(rightTracking.split(',')[10]);
+  rightTracking = parseInt(rightTracking.split(',')[3000]);
 }).on('mousemove touchmove', function(){
   if (dragging) {
     newTracking = $('.slideshow-left .slick-track').css('transform');

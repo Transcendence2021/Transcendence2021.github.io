@@ -54,7 +54,18 @@
   line-height: 87px;
   border-radius: 4px;
 }
-
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+@media(max-width:  1500px){
+    .navbar-nav.navbar-center {
+        position: relative;
+        left: 0;
+        transform: translateX(0)
+      }
+    }
 #navbar #logo>img {
   height: 120px;
     padding-top: 0px;
@@ -95,7 +106,7 @@
 
 
     
-@media screen and (max-width: 2080px) {
+@media screen and (max-width: 5080px) {
   #navbar {
     padding:0;
   }
@@ -199,6 +210,8 @@
         margin-top: 40px;
         z-index: 10;
         position: relative;
+        margin-right:0px;
+        margin-left:0;
     }
     .buttonevent{
         margin-top: 0%;
@@ -219,7 +232,7 @@
     <a style="margin-top: 0px; margin-right: 0px;padding: 0;" href="#default" id="logo"><span style="font-size: 40px;color: white;">&#9778;</span></a>
     </button><div class="fade-in"><div style="position: relative;"><a href="" id="logo"><img class="someimg" src="logot%20(1).png"></a></div>
         <div class="container10" style="position: relative;"><div id="bruh" class="collapse navbar-collapse" style="text-align: center;">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-center">
             <li><a href="home.html">Home</a></li>
             <li><a href="format.html">Events</a></li>
             <li><a href="about.html">About</a></li>
@@ -273,17 +286,17 @@
     </div>
   </div>
   <div class="slideshow-butt">
-    <div class="item"><a href="arbitrium.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="actadiurna.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="221B.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="tacticus.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="gaming.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="codeblooded.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="cosmicon.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="psychoh.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="acdc.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="viventem.html"><button class="button button2">Details</button></a></div>
-    <div class="item"><a href="zenith.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="arbitrium.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="actadiurna.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="221B.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="tacticus.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="gaming.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="codeblooded.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="cosmicon.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="psychoh.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="acdc.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="viventem.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="zenith.html"><button class="button button2">Details</button></a></div>
   </div>
   <div class="slideshow-text">
     <div class="item" style="text-shadow: 0 0 10px green;">Arbitrium</div>
