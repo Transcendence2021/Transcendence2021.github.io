@@ -427,7 +427,7 @@ html {
     height: auto;
   text-align: center;
   pointer-events: none;
-    
+    opacity: 0.5;
     /*filter: brightness(2);
     mix-blend-mode: darken;*/
     font-size: 200px;
